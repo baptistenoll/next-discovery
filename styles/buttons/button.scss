@@ -1,0 +1,14 @@
+.btn {
+    @apply py-3 px-6 rounded-sm flex;
+    &_icon {
+        @apply gap-2;
+    }
+    &_outline {
+        &-primary{
+            @apply bg-transparent border border-brand-01 hover:bg-brand-01 hover:text-white trans_default;
+        }
+        &-secondary {
+            @apply bg-transparent border border-brand-02 hover:bg-brand-02 hover:text-white trans_default;
+        }
+    }
+}

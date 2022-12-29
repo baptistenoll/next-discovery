@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset */
+@import './reset/reset';
+
+/* Utils */
+@import './utils/utils';
+
+/* Typographie */
+@import './typographie/heading';
+@import './typographie/paragraphe';
+
+/* Boutons */
+@import './buttons/button';
